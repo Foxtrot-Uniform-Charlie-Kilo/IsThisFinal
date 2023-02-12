@@ -21,8 +21,11 @@ string[] arrayNew = Array();
 
 void PrintArray()
 {
-for (int i = 0; i < arrayNew.Length; i++)
+    for (int i = 0; i < arrayNew.Length; i++)
     {
-if (arrayNew[i].Length <= 3)
-Console.Write($"\"{arrayNew[i]}\" ");
+        if (arrayNew[i].Length <= 3)
+            Console.Write($"\"{arrayNew[i]}\" ");
+    }
+}
 
+PrintArray();
