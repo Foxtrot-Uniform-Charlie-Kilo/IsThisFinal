@@ -16,5 +16,11 @@ string[] Array()
         array[i] = Console.ReadLine();
     }
     return array;
+}
+string[] arrayNew = Array();
 
-fd
+void PrintArray()
+{
+for (int i = 0; i < arrayNew.Length; i++)
+    {
+
